@@ -1,0 +1,109 @@
+/* Base Font */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: pink;
+    height: 100vh;
+}
+
+/* Navbar Styling */
+header .navb {
+    background-color: beige;
+    border: 1px solid black;
+    width: 100%;
+    position: fixed;
+    padding: 0.9rem 2rem;
+}
+
+#log {
+    color: rgb(58, 0, 6);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header .navb nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+header .navb nav ul a {
+    margin: 0 20px;
+    color: rgb(255, 61, 255);
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 80px;
+    color: black;
+    font-weight: 600;
+}
+
+/* Header Content Styling */
+.header1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.5fr 1fr;
+    margin: auto;
+    height: 90%;
+    max-width: 1400px;
+    padding: 3rem 2rem 0;
+}
+
+.header1 img {
+    width: 280px;
+    height: 280px;
+}
+
+/* Text Content Styling */
+.text1 {
+    color: rgba(0, 9, 175, 0.649);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header1 h1 {
+    font-size: 60px;
+    color: rgb(220, 106, 0);
+    text-shadow: 13px 3px 3px rgba(139, 137, 137, 0.627);
+    margin: 30px;
+}
+
+.tit {
+    font-size: 30px;
+    margin: 20px 1px;
+    font-weight: 600;
+}
+
+#pa {
+    color: crimson;
+    font-size: 33px;
+}
+
+/* Social Icon Styling */
+.soc a i {
+    font-size: 30px;
+    padding: 22px;
+    background-color: rgba(128, 128, 128, 0.922);
+    color: darkorchid;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.soc a i:hover {
+    transform: scale(1.25);
+}
+
+/* Utility Styling */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
