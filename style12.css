@@ -1,116 +1,109 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1{
-font-size: 80px;
-color: black;
-font-weight: 600;
+/* Base Font */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    margin: 10px;
-}
-header{
-    background-color:pink;
+
+/* Header Styling */
+header {
+    background-color: pink;
     height: 100vh;
 }
-header .navb{
-    background-color:beige;
+
+/* Navbar Styling */
+header .navb {
+    background-color: beige;
     border: 1px solid black;
-    width:100%;
+    width: 100%;
     position: fixed;
     padding: 0.9rem 2rem;
-    list-style: none;
-}
-header .navb nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: auto;
 }
 
-#log{
-
+#log {
     color: rgb(58, 0, 6);
     font-size: 30px;
     font-weight: 700;
 }
-header .navb nav ul{
+
+header .navb nav ul {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     font-size: 24px;
 }
-header .navb nav li{
-list-style: none;
 
-}
-header .navb nav ul a{
-
+header .navb nav ul a {
     margin: 0 20px;
     color: rgb(255, 61, 255);
 }
-header .header1 img{
 
-    width: 280px;
-    height: 280px;
+/* Heading Styling */
+h1 {
+    font-size: 80px;
+    color: black;
+    font-weight: 600;
 }
-header .header1{
 
+/* Header Content Styling */
+.header1 {
     display: grid;
     align-items: center;
     grid-template-columns: 1.5fr 1fr;
     margin: auto;
     height: 90%;
     max-width: 1400px;
-    padding:  3rem 2rem 0;
-    
+    padding: 3rem 2rem 0;
 }
-.text1{
-    color:rgba(0, 9, 175, 0.649);
+
+.header1 img {
+    width: 280px;
+    height: 280px;
+}
+
+/* Text Content Styling */
+.text1 {
+    color: rgba(0, 9, 175, 0.649);
     font-size: 30px;
     font-weight: 600;
-    
-    }
+}
 
-    #h .header1 p span{
-        font-weight: 800;
-        font-size: 40px;
-        margin:30px;
-    }
+.header1 h1 {
+    font-size: 60px;
+    color: rgb(220, 106, 0);
+    text-shadow: 13px 3px 3px rgba(139, 137, 137, 0.627);
+    margin: 30px;
+}
 
-    #h .header1 h1{
+.tit {
+    font-size: 30px;
+    margin: 20px 1px;
+    font-weight: 600;
+}
 
-        font-size: 60px;
-        color: rgb(220, 106, 0);
-        text-shadow: 13px 3px 3px rgba(139, 137, 137, 0.627);
-        margin:30px;
-    }
-    #h .tit{
-        font-size: 30px;
-        margin: 20px 1px;
-        font-weight: 600;
-    }
+#pa {
+    color: crimson;
+    font-size: 33px;
+}
 
+/* Social Icon Styling */
+.soc a i {
+    font-size: 30px;
+    padding: 22px;
+    background-color: rgba(128, 128, 128, 0.922);
+    color: darkorchid;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
 
-    #h .header1 .soc  {
+.soc a i:hover {
+    transform: scale(1.25);
+}
 
-        margin: 30px;
-    }
+/* Utility Styling */
+ul {
+    list-style: none;
+}
 
-    #h .header1 .soc a i {
-        font-size: 30px;
-        padding: 22px;
-        background-color: rgba(128, 128, 128, 0.922);
-        color: darkorchid;
-        border-radius: 80%;
-    }
-        #h .header1 .soc a i:hover{
-            transform:  scale(1.25);}
-            #pa{
-                color: crimson;
-                font-size: 33px;
-            }
+a {
+    text-decoration: none;
+    margin: 10px;
+}
